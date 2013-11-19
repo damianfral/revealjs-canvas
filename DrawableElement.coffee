@@ -50,3 +50,5 @@ class DrawableElement
 
 	stopPaint: (e) =>
 		@canvasEl.removeEventListener "mousemove", @paint
+
+window.DrawableElement = DrawableElement

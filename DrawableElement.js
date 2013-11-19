@@ -66,4 +66,6 @@
 
   })();
 
+  window.DrawableElement = DrawableElement;
+
 }).call(this);
